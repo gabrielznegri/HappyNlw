@@ -169,21 +169,21 @@ export default function OrphanagesMap() {
                                     onClick={() => setOpenOnWeekends(true)}
                                 >
                                     Sim
-                </button>
+                                </button>
                                 <button
                                     type="button"
                                     className={!open_on_weekends ? 'active' : ''}
                                     onClick={() => setOpenOnWeekends(false)}
                                 >
                                     Não
-                </button>
+                                </button>
                             </div>
                         </div>
                     </fieldset>
 
                     <button className="confirm-button" type="submit">
                         Confirmar
-          </button>
+                    </button>
                 </form>
             </main>
         </div>
